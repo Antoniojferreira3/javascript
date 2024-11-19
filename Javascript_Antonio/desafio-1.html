@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+
+
+
+// Solicitar ao usuário as informações necessárias
+let nomeProduto = prompt("Digite o nome do produto:");
+let quantidade = parseInt(prompt("Digite a quantidade desejada:"));
+let precoUnitario = parseFloat(prompt("Digite o preço unitário do produto:"));
+
+// Calcular o total da compra
+let totalCompra = quantidade * precoUnitario;
+
+// Exibir o resultado com alert
+alert(`Você comprou ${quantidade} unidades de ${nomeProduto} por R$ ${precoUnitario.toFixed(2)} cada, totalizando R$ ${totalCompra.toFixed(2)}.`);
+
+// Exibir o mesmo resultado no console
+console.log(`Você comprou ${quantidade} unidades de ${nomeProduto} por R$ ${precoUnitario.toFixed(2)} cada, totalizando R$ ${totalCompra.toFixed(2)}.`);
+
+
+
+    </script>
+</body>
+
+<script src="script.js"></script>
+</html>

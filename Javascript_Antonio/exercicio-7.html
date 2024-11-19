@@ -1,0 +1,35 @@
+
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+      </head>
+      <body>
+          <script>
+      
+      
+      
+   
+      // Solicitar o valor da conta e a porcentagem da gorjeta
+let valorConta = parseFloat(prompt("Digite o valor total da conta:"));
+let porcentagemGorjeta = parseFloat(prompt("Digite a porcentagem de gorjeta desejada:"));
+
+// Calcular o valor da gorjeta
+let valorGorjeta = (valorConta * porcentagemGorjeta) / 100;
+
+// Calcular o total da conta com a gorjeta
+let totalConta = valorConta + valorGorjeta;
+
+// Exibir o valor da gorjeta e o total da conta
+alert("Valor da gorjeta: R$ " + valorGorjeta.toFixed(2) + "\n" +
+      "Total da conta (com gorjeta): R$ " + totalConta.toFixed(2));
+      
+      
+      
+          </script>
+      </body>
+      
+      <script src="script.js"></script>
+      </html>

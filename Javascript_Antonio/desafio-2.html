@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+let nome = prompt("Qual é o nome da disciplina?");
+let nota1 = prompt("Digite aqui a primeira nota");
+let nota2 = prompt("Digite aqui a segunda nota");
+let nota3 = prompt("Digite aqui a terceira nota");
+
+
+nota1 = parseFloat(nota1);
+nota2 = parseFloat(nota2);
+nota3 = parseFloat(nota3);
+
+let media = (nota1 + nota2 + nota3) / 3;
+
+alert("Na disciplina " + nome + " o aluno teve as notas " + nota1 + ", " + nota2 + ", " + nota3 + " e sua média final será de " + media);
+
+
+    </script>
+</body>
+
+<script src="script.js"></script>
+</html>
