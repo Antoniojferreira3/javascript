@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Exemplo 1: Número positivo ou negativo -->
+    <!-- <script>
+let numero = prompt("Digite um número:");
+
+if (numero > 0) {
+    alert("O número é positivo!");
+} else {
+    alert("O número é negativo ou zero!");
+}
+    </script> -->
+
+    <!-- Exemplo 2: Maior idade -->
+    <!-- <script>
+    let idade = prompt("Digite sua idade:");
+
+    if (idade >= 18) {
+        alert("Você é maior de idade!");
+    } else {
+        alert("Você é menor de idade!");
+    }
+</script> -->
+
+    <!-- Exemplo 3: Par ou ímpar -->
+    <!-- <script>
+    let numero = prompt("Digite um número:");
+
+    if (numero % 2 === 0) {
+        alert("O número é par!");
+    } else {
+        alert("O número é ímpar!");
+    }
+</script> -->
+
+    <!-- Exemplo 4: Adivinhe o número -->
+    <!-- <script>
+    let numeroSecreto = 5;
+    let chute = prompt("Adivinhe o número (entre 1 e 10):");
+
+    if (chute == numeroSecreto) {
+        alert("Você acertou!");
+    } else {
+        alert("Você errou! O número era " + numeroSecreto);
+    }
+</script> -->
+
+    <!-- Exemplo prático: Avaliação de notas
+javascript -->
+    <!-- <script>
+let nota = Number(prompt("Digite sua nota (0 a 10):"));
+
+if (nota >= 9 && nota <= 10) {
+    alert("Excelente! Você tirou uma nota A.");
+} else if (nota >= 7) {
+    alert("Bom trabalho! Você tirou uma nota B.");
+} else if (nota >= 5) {
+    alert("Você tirou uma nota C. Pode melhorar.");
+} else {
+    alert("Nota insuficiente. Você tirou uma nota D.");
+}
+</script> -->
+
+    <!-- EXERCICIO 1 Verificação de múltiplos números:-->
+
+    <!-- <script>
+
+let numero1 = Number (prompt("Digite o primeiro número:"));
+let numero2 = Number (prompt("Digite o segundo número:"));
+let numero3 = Number (prompt("Digite o terceiro número:"));
+
+if (numero1 > 0 && numero2 > 0 && numero3 > 0) {
+    alert("Todos os numeros são positivos!");
+} else {
+    alert("Nem todos os numeros são positivos!");
+}
+
+</script> -->
+
+    <!-- EXERCICIO 2  Calculadora simples: -->
+
+    <!-- <script>
+
+let numero1 = Number(prompt("Digite o primeiro número:"));
+let numero2 = Number(prompt("Digite o segundo número:"));
+let operador = prompt("selecione uma operação (+, -, *, /):");
+
+if (operador === "+") {
+    alert("Resultado: " +  (numero1 + numero2));
+}
+else if (operador === "-"){
+    alert("Resultado: " +  (numero1 - numero2));
+}
+else if (operador === "*"){
+    alert("Resultado: " +  (numero1 * numero2));
+}
+else if (operador === "/"){
+    if (numero2 !== 0) {
+        alert("Resultado: " +  (numero1 / numero2));
+else {
+    alert("divisão por zero não é permitida.")
+}
+}else {
+    alert("Operação inválida.");
+}
+
+</script> -->
+
+    <!-- EXERCICIO 3 Número no intervalo:-->
+
+    <!-- <script>
+
+let numero1 = Number (prompt ("Digite um número:"));
+
+if (numero1 >= 50 && numero1 <= 100) {
+    alert("O numero está entre 50 e 100 inclusive!");
+} else {
+    alert("Este numero não está entre 50 e 100 inclusive!");
+}
+</script> -->
+
+    <!-- EXERCICIO 4   Desconto em compras: -->
+    <!-- <script>
+
+let numero1 = Number (prompt ("Digite o valor da compra:"));
+
+if (numero1 > 100){
+    alert ("Valor com desconto será: " + (numero1 * 0.9));
+}
+else{
+    alert("Para esse valor não há desconto");
+}
+</script> -->
+
+    <!-- EXERCICIO 5  Classificação por altura: -->
+
+    <!-- <script>
+
+      let altura = Number(prompt("Digite sua altura em centimetros."));
+
+      if (altura < 150){
+      alert("Você é uma pessoa de baixa estatura.");
+      }
+      else if (altura <= 180) {
+          alert("Você é uma pessoa de estatura média.");
+       }
+       else {
+          alert("Você é uma pessoa de estatura alta.")
+       }
+
+       </script> -->
+
+ <!-- EXERCICIO 6   Verificação de senha: -->
+
+ <!-- <script>
+let senha = Number = (prompt("Digite sua senha"));
+
+if (senha == 1234){
+    alert ("Acesso permitido");
+}
+else{
+    alert("Acesso negado");
+}
+ </script> -->
+
+<!-- EXERCICIO 7  Par ou ímpar com extra: -->
+
+<!-- <script>
+
+let num = Number = (prompt("Digite um número"));
+
+if (num % 2 === 0) {
+alert ("Esse número é par")
+}
+else {
+ alert (" Esse número é ímpar")
+if (num > 50){
+    alert("Esse número é especial");
+}
+}
+</script> -->
+
+<!-- EXERCICIO 8. Classificação etária completa -->
+
+<!-- <script>
+let idade = Number (prompt("Digite sua idade"))
+
+if (idade <= 12){
+    alert ("criança")
+}
+else if (idade >=13 && idade <= 17) {
+     alert("adolescente")
+}
+else if (idade >=18 && idade <= 64) {
+     alert("adulto")
+}
+else{
+     alert("idoso")
+}
+</script> -->
+
+<!-- EXERCICIO 9 - Jogo de adivinhação: -->
+
+<!-- <script>
+let numer = Number (prompt("Digite um numero entre 1 a 10 inclusive"))
+if (numer == 7){
+    alert ("Parabéns, você acertou")
+}
+else {
+    alert ("Tente novamente")
+}
+</script> -->
+
+<script>
+// - **Avaliação de desempenho:**
+// Peça uma nota de 0 a 10 e informe a classificação do desempenho:
+//     - Nota entre 0 e 4: "Ruim".
+//     - Nota entre 5 e 7: "Bom".
+//     - Nota entre 8 e 10: "Excelente".
+let nota = Number (prompt("Digite a nota entre 0 e 10"))
+
+if (nota >= 0 && nota <= 4){
+    alert("Ruim")
+}
+else if (nota >= 5 && nota <= 7){
+    alert("Bom")
+}
+else (nota >= 8 && nota <= 10){
+    alert("Excelente")
+}
+</script>
+
+  </body>
+
+  <script src="script.js"></script>
+</html>
